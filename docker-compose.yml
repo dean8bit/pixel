@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  pixel:
+    image: node:16-alpine3.11
+    container_name: pixel
+    ports:
+      - 3000:3000
+      - 9005:9005
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
+    command: tail -f /dev/null

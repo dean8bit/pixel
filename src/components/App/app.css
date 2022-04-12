@@ -1,0 +1,19 @@
+:root{
+    --background-clear: #212121;
+    --panel: #999999;
+    --button-panel: #5c5c5c;
+    --button: #444444;
+    --board-clear: white;
+    --button-background: #666666;
+    --font: white;
+}
+
+
+.pixel-container {
+    background-color: var(--background-clear);
+    color: var(--font);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
