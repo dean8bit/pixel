@@ -1,3 +1,3 @@
 A browser based painting app
 
-[Hosted here](https://plato4.github.io/pixel/)
+[Hosted here](https://dean8bit.github.io/pixel/)
